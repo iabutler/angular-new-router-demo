@@ -4,3 +4,9 @@
 <div>
     <p>{{route1.dataSet | json}}</p>
 </div>
+
+<div>
+    <input type="email" ng-model="route1.user.email">
+    <input type="password" ng-model="route1.user.pass">
+    <a ng-link="route2">login</a>
+</div>
